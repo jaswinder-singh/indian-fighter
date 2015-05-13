@@ -575,7 +575,7 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 /* PARALLAX SECTION 1
 --------------------------------------------------------*/
 .bg1 {
-	background-image: url(http://warrior-tanks.tk/images/quotes/bg.jpg);
+	background-image: url(../images/tanki.jpg);
 }
 p.quote {
 	font-family: 'BebasNeueRegular', sans-serif;
@@ -730,7 +730,7 @@ p.quote {
 --------------------------------------------------------*/
 
 .bg4 {
-	background-image: url(http://i.imgur.com/FOTB0Gc.jpg);
+	background-image: url(../images/rankup.jpg);
 }
 /*--------------------------------------------------------
 /* COLOR BLOCK SECTION
@@ -838,7 +838,7 @@ p.quote {
 	background: radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
 }
 .home-parallax {
-	background: url(http://i.imgur.com/JBSGe0d.jpg) fixed;
+	background: url(../images/main-bg.jpg) fixed;
 	background-size: cover;
 	background-position: center top;
 	background-color: #FFD600;
