@@ -139,7 +139,7 @@ alert-message.info a {
 	-moz-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
-	color: #ffffff;
+	color: #000;
 	cursor: pointer;
 	background-color: #FFD600;
 	height: 40px;
