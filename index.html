@@ -18,17 +18,23 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="css/social.css" type="text/css">             
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css">	
-	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen"/><!-- PrettyPhoto -->	
 	<link rel="stylesheet" href="css/font-awesome.css" type="text/css"/><!-- PrettyPhoto -->    
 	<link rel="stylesheet" href="css/shortcodes.css" type="text/css"/> 	
 	<link rel="stylesheet" href="css/media.css"><!-- Media Queries -->   
     <link id="layout_color" href="css/dark.css" rel="stylesheet" type="text/css"/>  
-    <link id="primary_color_scheme" href="css/colors/yellow.css" rel="stylesheet" type="text/css"/>      
+    <link id="primary_color_scheme" href="css/colors/yellow.css" rel="stylesheet" type="text/css"/>   
+	<link rel="stylesheet" href="css/colorbox.css" /><!-- ColorBox by Jack Moore -->  
        
     <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-		   
+	
+	<script>
+	$(document).ready(function(){
+	$(".gallery1").colorbox({rel:'group1'});
+	$(".clan-intro").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+	});
+	</script>
     
 </head>
 
@@ -247,7 +253,7 @@
     <!-- START PORTFOLIO ITEM -->                   
     <div class="portfolio-item one-third column design videography photography web branding">
            <div class="portfolio">
-              <a href="#" onclick="return:false" class="portfolio-image">
+              <a class="gallery1" href="images/clan-pics/pic1-full.png" class="portfolio-image">
                 <img src="images/clan-pics/pic1.png" alt="Picture 1"/><!-- END PORTFOLIO IMAGE -->   
                 
                 <div class="portfolio-overlay">                
@@ -266,7 +272,7 @@
     <!-- START PORTFOLIO ITEM -->                   
     <div class="portfolio-item one-third column design videography photography web branding">
            <div class="portfolio">
-              <a href="#" onclick="return:false" class="portfolio-image">
+              <a class="gallery1" href="images/clan-pics/pic2-full.png" class="portfolio-image">
                 <img src="images/clan-pics/pic2.png" alt="Picture 2"/><!-- END PORTFOLIO IMAGE -->   
                 
                 <div class="portfolio-overlay">                
@@ -285,7 +291,7 @@
     <!-- START PORTFOLIO ITEM -->                   
     <div class="portfolio-item one-third column design videography photography web branding">
            <div class="portfolio">
-              <a href="#" onclick="return:false" class="portfolio-image">
+              <a class="gallery1" href="images/clan-pics/pic3-full.png" class="portfolio-image">
                 <img src="images/clan-pics/pic3.png" alt="Picture 3"/><!-- END PORTFOLIO IMAGE -->   
                 
                 <div class="portfolio-overlay">                
@@ -304,7 +310,7 @@
     <!-- START PORTFOLIO ITEM -->                   
     <div class="portfolio-item one-third column design videography photography web branding">
            <div class="portfolio">
-              <a href="#" onclick="return:false" class="portfolio-image">
+              <a class="gallery1" href="images/clan-pics/pic4-full.png" class="portfolio-image">
                 <img src="images/clan-pics/pic4.png" alt="Picture 4"/><!-- END PORTFOLIO IMAGE -->   
                 
                 <div class="portfolio-overlay">                
@@ -323,7 +329,7 @@
     <!-- START PORTFOLIO ITEM -->                   
     <div class="portfolio-item one-third column design videography photography web branding">
            <div class="portfolio">
-              <a href="#" onclick="return:false" class="portfolio-image">
+              <a class="gallery1" href="images/clan-pics/pic5-full.jpg" class="portfolio-image">
                 <img src="images/clan-pics/pic5.jpg" alt="Picture 5"/><!-- END PORTFOLIO IMAGE -->   
                 
                 <div class="portfolio-overlay">                
@@ -388,7 +394,7 @@
        <a href="#">Back to Top</a>
    </div>
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>         
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>         
     <script type="text/javascript" src="js/jquery.tweet.js"></script>         
     <script type="text/javascript" src="js/jquery.form.js"></script>
     <script type="text/javascript" src="js/jquery.queryloader2.js"></script>        
@@ -399,7 +405,6 @@
     <script type="text/javascript" src="js/jquery.fittext.js"></script>   
 	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
 	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 	<script type="text/javascript" src="js/jquery.sticky.js"></script>
 	<script type="text/javascript" src="js/selectnav.min.js"></script>    
     <script type="text/javascript" src="js/SmoothScroll.js"></script>   
@@ -408,6 +413,8 @@
     <script type="text/javascript" src="js/bootstrap-modal.js"></script>   
     <script type="text/javascript" src="js/shortcodes.js"></script>     
 	<script type="text/javascript" src="js/scripts.js"></script> 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox.js"></script> 
   	
 </body>
 </html>
